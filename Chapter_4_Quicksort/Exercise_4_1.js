@@ -1,5 +1,5 @@
 let sum = (array) => {
-    return array.length === 0 ? 0 : array[0] + sum(array.slice(1));
+    return array.length === 0 ? 0 : array[0] + sum(array.slice(1)); //Simplified with ternary operator
 
     // let total = array[0];
     // array.shift();
